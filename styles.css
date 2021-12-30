@@ -1,31 +1,39 @@
 body {
     background-image: url(./images/wallpapertip_hawaii-desktop-wallpaper_1758719.jpg);
     margin: auto;
+    padding: 10px;
 }
-.headername {
+.container {
+    width: 1000px;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+}
+.header-name {
     text-align: center;
     background-color: white;
-    opacity: 75%;
+    opacity: 85%;
     padding: 5px;
     border: solid black;
 }
-.navbar {
-    height: auto;
-}
-nav {
+.nav-bar {
     background-color: white;
-    opacity: 75%;
-    padding: 5px;
-    border-top: solid 3px black;
-    border-bottom: solid 3px black;
+    opacity: 85%;
+    border: solid 3px black;
     position: sticky;
+    top: 0px;
+    z-index: 1;
+
 }
 nav a {
     color: darkred;
+    text-decoration: none;
 }
 nav li {
-    display: inline;
-    padding: 25px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-right: 75px;
+    padding-left: 50px;
     font-size: larger;
 }
 li {
@@ -34,10 +42,9 @@ li {
 nav ul {
     list-style-type: none;
     text-align: center;
-    padding: 15px;
 }
 .me-picture img {
-    width: 15%;
+    width: 25%;
     height: auto;
     border: solid black;
     border-width: 3px;
@@ -46,14 +53,31 @@ nav ul {
     display: flex;
     justify-content: center;
 }
-.About-me {
+.about-me {
     padding: 20px;
     text-align: center;
     background-color: white;
-    opacity: 75%;
-    border: solid black;
+    opacity: 85%;
+    border: solid 3px black;
     border width: 3px;
 }
-.About-me h2 {
+.about-me h2 {
     text-align: center;
+}
+.my-projects {
+    background-color: white;
+    padding: 20px;
+    border: solid 3px black;
+    text-align: center;
+    opacity: 85%;
+}
+.my-projects li {
+    padding: 10px
+}
+.contact-me {
+    background-color: white;
+    padding: 20px;
+    border: solid 3px black;
+    text-align: center;
+    opacity: 85%;
 }
